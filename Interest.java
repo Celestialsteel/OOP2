@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Interest {
  //Challenge 2
  void showInterest(){
@@ -19,3 +20,26 @@ new Interest().showInterest();
 }
         
 }
+=======
+public class Interest {
+ //Challenge 2
+ void showInterest(){
+    double amount, interest;  //interest as percentage
+
+    amount = 1200.00;
+    System.out.println("amount: " + amount);
+
+    interest = 3.0;
+    amount = amount * (100+interest)/100;
+    System.out.println("after a year: " + amount);
+
+    amount= amount *(100+interest)/100;
+    System.out.println("after 2 years: " +amount);
+
+   }
+public static void main(String[]args) {
+new Interest().showInterest();
+}
+        
+}
+>>>>>>> b8d38a937bf81e8eac8348281c4df641c8b66a74
